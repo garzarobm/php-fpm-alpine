@@ -4,6 +4,12 @@
 [![PHP](https://img.shields.io/badge/php-8.4-8892BF.svg?logo=php)](https://php.net/)
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker)](https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine)
 
+## local build
+[![Build](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/build.yml/badge.svg)](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/build.yml)
+[![Codespaces Prebuilds](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/codespaces/create_codespaces_prebuilds)
+[![Image](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/docker-image.yml/badge.svg)](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/docker-image.yml)
+[![Docker](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/garzarobm/php-fpm-alpine/actions/workflows/docker-publish.yml)
+
 A Dockerfile for PHP based on the official [PHP 8.4](https://hub.docker.com/_/php) FPM Alpine image. This is built for 
 CakePHP compatibility with the following extensions:
 
@@ -19,12 +25,12 @@ CakePHP compatibility with the following extensions:
 
 | Version | Branch 		                                                  |
 |---------|------------------------------------------------------------|
-| 8.4     | https://github.com/cnizzardini/php-fpm-alpine/tree/master  |
-| 8.3     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.3 |
-| 8.2     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.2 |
-| 8.1     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.1 |
-| 8.0     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.0 |
-| 7.4     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-7.4 |
+| 8.4     | https://github.com/garzarobm/php-fpm-alpine/tree/master  |
+| 8.3     | https://github.com/garzarobm/php-fpm-alpine/tree/php-8.3 |
+| 8.2     | https://github.com/garzarobm/php-fpm-alpine/tree/php-8.2 |
+| 8.1     | https://github.com/garzarobm/php-fpm-alpine/tree/php-8.1 |
+| 8.0     | https://github.com/garzarobm/php-fpm-alpine/tree/php-8.0 |
+| 7.4     | https://github.com/garzarobm/php-fpm-alpine/tree/php-7.4 |
 
 Revision tags for this image do not reflect PHP revisions, they are for bug fixes and minor changes to the image.
 
